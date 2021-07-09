@@ -146,21 +146,48 @@
         app:layout_constraintRight_toRightOf="parent">
 
         <ImageButton
+            android:id="@+id/ib_save"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_save"
+            android:contentDescription="image save"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/ib_brush"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_brush"
+            android:contentDescription="image brush"
+            android:scaleType="fitXY" />
+
+        <ImageButton
             android:id="@+id/ib_gallery"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_margin="5dp"
             android:background="@drawable/ic_gallery"
             android:contentDescription="image gallery"
             android:scaleType="fitXY" />
 
         <ImageButton
-            android:id="@+id/ib_brush"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:id="@+id/ib_undo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_margin="5dp"
-            android:background="@drawable/ic_brush"
-            android:contentDescription="image brush"
+            android:background="@drawable/ic_undo"
+            android:contentDescription="image undo"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/ib_redo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_redo"
+            android:contentDescription="image redo"
             android:scaleType="fitXY" />
 
     </LinearLayout>
